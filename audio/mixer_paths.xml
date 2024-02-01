@@ -404,10 +404,10 @@
     <ctl name="RX5 Digital Volume" value="84" />
     <ctl name="RX6 Digital Volume" value="84" />
     <ctl name="RX7 Digital Volume" value="84" />
-    <ctl name="ADC1 Volume" value="12" />
+    <ctl name="ADC1 Volume" value="20" />
     <ctl name="ADC2 Volume" value="12" />
     <ctl name="ADC3 Volume" value="0" />
-    <ctl name="ADC4 Volume" value="12" />
+    <ctl name="ADC4 Volume" value="20" />
     <ctl name="DEC0 Volume" value="102" />
     <ctl name="DEC1 Volume" value="102" />
     <ctl name="DEC2 Volume" value="102" />
@@ -2826,11 +2826,11 @@
     </path>
 
     <path name="speaker-mic-bak">
-        <path name="dmic3" />
+        <path name="dmic2" />
     </path>
 
     <path name="speaker-mic-liquid">
-        <path name="dmic3" />
+        <path name="dmic2" />
     </path>
 
     <path name="speaker-mic-sbc">
@@ -3544,8 +3544,8 @@
         <ctl name="TX SMIC MUX1" value="ADC0" />
         <ctl name="ADC4_MIXER Switch" value="1" />
         <ctl name="TX_CDC_DMA_TX_3 Channels" value="Two" />
-        <ctl name="ADC1 Volume" value="6" />
-        <ctl name="ADC4 Volume" value="6" />
+        <ctl name="ADC1 Volume" value="20" />
+        <ctl name="ADC4 Volume" value="20" />
     </path>
     <!--wei.hua@MULTIMEDIA.AUDIODRIVER.HAL, OPLUS_FEATURE_SWITCH_MIC, 2020/11/10, Add for Video recording switch left and right channels-->
     <path name="handset-stereo-dmic-switch">
@@ -3560,8 +3560,8 @@
         <ctl name="TX SMIC MUX1" value="ADC3" />
         <ctl name="ADC4_MIXER Switch" value="1" />
         <ctl name="TX_CDC_DMA_TX_3 Channels" value="Two" />
-        <ctl name="ADC1 Volume" value="6" />
-        <ctl name="ADC4 Volume" value="6" />
+        <ctl name="ADC1 Volume" value="20" />
+        <ctl name="ADC4 Volume" value="20" />
     </path>
 
     <!--#ifdef VENDOR_EDIT-->
@@ -3592,8 +3592,8 @@
         <path name="handset-dmic-odm1" />
         <ctl name="TX_DEC0 Volume" value="84" />
         <ctl name="TX_DEC1 Volume" value="84" />
-        <ctl name="ADC1 Volume" value="6" />
-        <ctl name="ADC4 Volume" value="6" />
+        <ctl name="ADC1 Volume" value="20" />
+        <ctl name="ADC4 Volume" value="20" />
     </path>
 
     <path name="handset-dmic-odm1-voice-chat">
