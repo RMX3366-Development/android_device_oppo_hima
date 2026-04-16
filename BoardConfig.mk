@@ -9,6 +9,9 @@ include device/oppo/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oppo/hima
 
+# A/B
+AB_OTA_UPDATER := false
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := OP4F0BL1,OP4EA7,hima
 
