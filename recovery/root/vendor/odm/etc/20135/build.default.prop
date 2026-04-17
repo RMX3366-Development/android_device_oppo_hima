@@ -1,0 +1,6 @@
+ro.product.odm.device=OP4EA7
+ro.product.odm.model=PDRM00
+ro.product.odm.name=PDRM00
+
+# NFC
+persist.vendor.nfc.config_file_name=libnfc-mtp-SN100.conf_20135
