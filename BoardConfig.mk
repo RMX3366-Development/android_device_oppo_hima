@@ -5,9 +5,12 @@
 #
 
 # Include the common OEM chipset BoardConfig.
-include device/oneplus/sm8250-common/BoardConfigCommon.mk
+include device/oppo/sm8250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/kebab
+DEVICE_PATH := device/oppo/hima
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := OP4F0BL1,OP4EA7,hima
 
 # Display
 TARGET_SCREEN_DENSITY := 450
@@ -30,4 +33,4 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
-include vendor/oneplus/kebab/BoardConfigVendor.mk
+include vendor/oppo/hima/BoardConfigVendor.mk
