@@ -769,7 +769,7 @@ odm/etc/sensor/config/kona_qrd_sx933x_0.json
 odm/etc/sensor/sensor_config.json
 
 # Vibrator firmware
-odm/firmware/aw8697_haptic_235.bin
+odm/firmware/aw8697_haptic_235_19161.bin
 
 # WiFi
 odm/etc/wifi/bdwlan.elf
